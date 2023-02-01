@@ -30,9 +30,10 @@ As mentioned above, the line will be detected with use of IR sensors.
    
 Widely used IR sensors have 3 pins, namely, `GND` (Ground), `VCC`(Supply) and `OUT`(Output). The sensors operate at `VCC` connected to 5V.
 
-> refer [This](https://www.google.com/) for working of the sensors.
+> Refer [this link](https://www.google.com/) for working of the sensors.
 
-
+### Output:
+The sensors return a value denoting whether the IR rays are reflected back.The sensors can give both `digital` and `pwm` outputs. In case of arduino using `digitalRead()` gives the value `0` and `1` if an obstacle (or white area in this case) is present.
 
 ## Flow of Power
 
