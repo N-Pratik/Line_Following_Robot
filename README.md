@@ -13,9 +13,9 @@ When the line is detected exactly below the bot, the bot keeps moving forward. I
 ```
 if line == in centre 
     move(forward)
-   if line == left
+if line == left
     move(left)
-   if line == right
+if line == right
     move(right)
 ```
 > One can have different the rates of turning based on position of the line.  
