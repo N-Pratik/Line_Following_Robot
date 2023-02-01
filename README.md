@@ -6,4 +6,13 @@ A line following robot(referred as LFR from here) is a type of mobile robot that
 
 > In this guide we will be discussing about LFR that uses **IR sensors and differential drive mechanism** for mobolity.
 
-## Basic Mechanism
+## Logic
+<!-- Yeh comment hai -->
+
+## Sensing and Detection 
+
+## Flow of Power
+
+## Actuation
+
+## PID Control
