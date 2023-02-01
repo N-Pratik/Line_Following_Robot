@@ -20,8 +20,15 @@ if line == left
 if line == right
     move(right)
 ```
-> One can have different the rates of turning based on position of the line.  
+> One can have different the rates of turning based on the position of the line
+ 
 ## Sensing and Detection 
+
+As mentioned above, the line will be detected with use of IR sensors.
+
+### Power supply to the sensors:
+   
+Widely used IR sensors have 3 pins, namely, `GND` (Ground), `VCC`(Supply) and `OUT`(Output)
 
 ## Flow of Power
 
