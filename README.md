@@ -7,7 +7,7 @@ A line following robot(referred as LFR from here) is a type of mobile robot that
 > In this guide we will be discussing about LFR that uses **IR sensors and differential drive mechanism** for mobolity.
 
 ## Logic
-### Naive Approach:
+### Basic Approach:
 When the line is detected exactly below the bot, the bot keeps moving forward. If the line is detected to be off-centred to the left or right, the bot turns in the respective direction.
 
 ```
@@ -15,9 +15,11 @@ if line == in centre
     move(forward)
    if line == left
     move(left)
-   if line == right\
+   if line == right
     move(right)
 ```
+
+
 
 ## Sensing and Detection 
 
