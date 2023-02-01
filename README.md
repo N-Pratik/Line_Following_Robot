@@ -28,7 +28,7 @@ As mentioned above, the line will be detected with use of IR sensors.
 
 ### Power supply to the sensors:
    
-Widely used IR sensors have 3 pins, namely, `GND` (Ground), `VCC`(Supply) and `OUT`(Output)
+Widely used IR sensors have 3 pins, namely, `GND` (Ground), `VCC`(Supply) and `OUT`(Output). The sensors operate at `VCC` connected to 5V. 
 
 ## Flow of Power
 
