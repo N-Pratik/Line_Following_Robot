@@ -18,9 +18,7 @@ if line == in centre
    if line == right
     move(right)
 ```
-
-
-
+> One can have different the rates of turning based on position of the line.  
 ## Sensing and Detection 
 
 ## Flow of Power
