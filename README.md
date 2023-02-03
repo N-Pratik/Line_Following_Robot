@@ -13,11 +13,11 @@ A line following robot is a type of mobile robot that is designed to follow a pr
 When the line is detected exactly below the bot, the bot keeps moving forward. If the line is detected to be off-centred to the left or right, the bot turns in the respective direction.
 
 ```
-if line == in centre 
+if line at centre 
     move(forward)
-if line == left
+if line at left
     move(left)
-if line == right
+if line at right
     move(right)
 ```
 > One can have different the rates of turning based on the position of the line
@@ -34,7 +34,6 @@ Widely used IR sensors have 3 pins, namely, `GND` (Ground), `VCC`(Supply) and `O
 
 ### Output:
 The sensors return a value denoting whether the IR rays are reflected back.The sensors can give both `digital` outputs. In case of arduino, using `digitalRead()` gives the value `0` and `1` if an obstacle (or white area in this case) is present or not respectively.
-> Some IR sensors can return an value ranging from `0` to `1024` denoting amount of reflected rays.
 
 
 ### Interpreting the outputs:
