@@ -37,7 +37,17 @@ The sensors return a value denoting whether the IR rays are reflected back.The s
 
 
 ### Interpreting the outputs:
+> Usually, two sensors are used in basic implementation. We will also look in the case where five sensors are used.
+#### When two sensors are used:
+> The width of line to be followed is considered to be lesser than distance between sensors.
+When no sensors detect line, line is between both the sensors and hence aligned with the bot.
+When only left sensor detects the line, the line is on left of the bot.
+When only right sensor detects the line, the line is on right of the bot.
 
+<p color ='red'> INSERT IMAGE </p>
+
+#### When five sensors are used:
+> The width of line to be followed is considered to be lesser twice than distance between consecutive sensors.
 
 ## Flow of Power
 
