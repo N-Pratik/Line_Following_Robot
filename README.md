@@ -45,7 +45,8 @@ When only left sensor detects the line, the line is on left of the bot.
 When only right sensor detects the line, the line is on right of the bot.
 
 '''diff
--INSERT IMAGE'''
+- INSERT IMAGE
+'''
 
 #### When five sensors are used:
 > The width of line to be followed is considered to be lesser twice than distance between consecutive sensors.
