@@ -44,7 +44,7 @@ When no sensors detect line, line is between both the sensors and hence aligned 
 When only left sensor detects the line, the line is on left of the bot.
 When only right sensor detects the line, the line is on right of the bot.
 
-<p color ='red'> INSERT IMAGE </p>
+<font color ='red'> INSERT IMAGE </font>
 
 #### When five sensors are used:
 > The width of line to be followed is considered to be lesser twice than distance between consecutive sensors.
