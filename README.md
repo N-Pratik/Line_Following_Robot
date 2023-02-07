@@ -45,8 +45,9 @@ When no sensors detect line, line is between both the sensors and hence aligned 
 When only left sensor detects the line, the line is on left of the bot.
 When only right sensor detects the line, the line is on right of the bot.
 
-``` diff
-- INSERT IMAGE
+```
+diff
+INSERT IMAGE
 ```
 
 #### When five sensors are used:
