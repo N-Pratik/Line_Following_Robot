@@ -20,7 +20,7 @@ if line at left
 if line at right
     move(right)
 ```
-> One can have different the rates of turning based on the position of the line
+> One can have rate of turning just based on whether line on left or right or different rates of turning based on factors like current and past positions of the line.
  
 ## Sensing and Detection 
 
