@@ -54,7 +54,10 @@ When only right sensor detects the line, the line is on right of the bot.
 [IMAGE TO BE ADDED]
 
 ## Flow of Power
-
+```mermaid
+	graph TD;
+		A-->B;
+```
 
 ## Actuation
 
