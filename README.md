@@ -56,10 +56,10 @@ When only right sensor detects the line, the line is on right of the bot.
 ## Flow of Power
 ```mermaid
 graph TD;
-Battery-->Motor_Driver;
-Motor_Driver-->Motors;
-Motor_Driver -->Arduino;
-Arduino-->IR sensors;
+	Battery-->Motor_Driver;
+	Motor_Driver-->Motors;
+	Motor_Driver -->Arduino;
+	Arduino-->IR sensors;
 ```
 
 ## Actuation
