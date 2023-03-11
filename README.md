@@ -56,11 +56,16 @@ When only right sensor detects the line, the line is on right of the bot.
 ## Flow of Power
 ```mermaid
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+    Battery-->MotorDriver;
+	MotorDriver-->Motors;
+	MotorDriver-->Arduino;
+	Arduino-->IRSensors;
 ```
+All components except IR sensors are powered with complete voltage delivered by the batter whereas the IR sensors are powered by 5V from Arduino.
+The 5V pins in Arduino are connected to VCC of the sensors.
+
+## Flow of Signal
+
 
 ## Actuation
 
