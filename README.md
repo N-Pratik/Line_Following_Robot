@@ -62,6 +62,14 @@ graph TD;
 	Arduino-->IR sensors;
 ```
 
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
 ## Actuation
 
 ## PID Control
