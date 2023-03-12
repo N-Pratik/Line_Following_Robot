@@ -73,7 +73,7 @@ graph TD;
 	Arduino --> Processing;
 	Processing --> Command;
 	Command --> MotorDriver;
-	```
+```
 
 ## Actuation
 
