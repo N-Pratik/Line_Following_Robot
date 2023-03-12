@@ -74,6 +74,7 @@ graph TD;
 	Processing --> Command;
 	Command --> MotorDriver;
 ```
+Arduino reads and interprets the readings from arduino as decribed above and gives an output command to the motor driver that runs the motors accordingly.
 
 ## Actuation
 
