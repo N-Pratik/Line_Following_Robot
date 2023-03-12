@@ -61,12 +61,19 @@ graph TD;
 	MotorDriver-->Arduino;
 	Arduino-->IRSensors;
 ```
-All components except IR sensors are powered with complete voltage delivered by the batter whereas the IR sensors are powered by 5V from Arduino.
+All components except IR sensors are powered with the voltage delivered by the battery whereas the IR sensors are powered by 5V from Arduino.
 The `5V` pins in Arduino are connected to VCC of the sensors.
 
 > `Arduino UNO` has only one `5V` pin. Hence, when using independent sensors set some `GPIO` pins in Arduino to `HIGH` and use them to derive the power
-## Flow of Signal
 
+## Flow of Signal
+```mermaid
+graph TD;
+	IRSensors --> Arduino;
+	Arduino --> Processing;
+	Processing --> Command;
+	Command --> MotorDriver;
+	```
 
 ## Actuation
 
